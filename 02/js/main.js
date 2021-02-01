@@ -1,17 +1,17 @@
 //2.1
 
-// var userAge = +prompt('Сколько лет?'),
-//     userSmoke = confirm('Куришь?');
-// console.log(userAge, userSmoke);
-// if(userAge >= 18 && userSmoke === false){
-//     alert('Молодец, и не надо');
-// }else if(userAge >= 18 && userSmoke === true){
-//     alert('Ну и зря');
-// }else if(userAge < 18 && userSmoke === false){
-//     alert('Так держать');
-// }else if(userAge < 18 && userSmoke === true){
-//     alert('Маме раскажу');
-// }
+var userAge = +prompt('Сколько лет?'),
+    userSmoke = confirm('Куришь?');
+console.log(userAge, userSmoke);
+if(userAge >= 18 && userSmoke === false){
+    alert('Молодец, и не надо');
+}else if(userAge >= 18 && userSmoke === true){
+    alert('Ну и зря');
+}else if(userAge < 18 && userSmoke === false){
+    alert('Так держать');
+}else if(userAge < 18 && userSmoke === true){
+    alert('Маме раскажу');
+}
 
 // 2.2
 
